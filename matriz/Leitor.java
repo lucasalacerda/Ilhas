@@ -15,7 +15,7 @@ public class Leitor {
 		int b = 0;
 		
 		try {
-			Scanner file = new Scanner(new File("src/files/example_4.txt"));
+			Scanner file = new Scanner(new File("src/files/example_1.txt"));
 			x = file.nextInt(); 
 			y = file.nextInt();
 			matriz = new int[x][y];
