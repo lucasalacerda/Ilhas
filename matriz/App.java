@@ -1,8 +1,6 @@
 package matriz;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.Scanner;
  
 public class App {
 	
@@ -10,18 +8,11 @@ public class App {
 	private static ArrayList<Ilha> ilhas = new ArrayList<Ilha>();
     
 	public static void main(String[] args){
-		Leitor leitor = new Leitor();
-		
 		int[][] matriz; 
-		
-				
-		
-		
+		Leitor leitor = new Leitor();
 		matriz = leitor.lerArquivo();
-		int x = matriz[0].length;
-		int y = matriz.length;
-			        
-		percorreMatriz(matriz, x, y);
+		  
+		percorreMatriz(matriz, leitor.getAltura(), leitor.getLargura());
 		System.out.println("Posição da(s) ilha(s): "+ilhas);
 		System.out.println("Numero de ilhas encontradas: "+ilhas.size());
 
