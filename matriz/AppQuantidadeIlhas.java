@@ -12,7 +12,7 @@ public class AppQuantidadeIlhas {
 		matriz = leitor.lerArquivo();
 		  
 		percorreMatriz(matriz, leitor.getAltura(), leitor.getLargura());
-		System.out.println("Numero de ilhas encontradas: "+ilhas.size());
+		System.out.println(ilhas.size());
 
 	}//MAIN
 
