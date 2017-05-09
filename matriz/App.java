@@ -14,7 +14,6 @@ public class App {
 		  
 		percorreMatriz(matriz, leitor.getAltura(), leitor.getLargura());
 		System.out.println("Posição da(s) ilha(s): "+ilhas);
-		System.out.println("Numero de ilhas encontradas: "+ilhas.size());
 
 	}//MAIN
 
