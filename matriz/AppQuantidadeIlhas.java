@@ -30,7 +30,7 @@ public class AppQuantidadeIlhas {
 			return;
 		}
 		if(x >= 0 && x < matriz.length && y >= 0 && y < matriz[x].length){
-			System.out.println("["+y+", "+x+"]"+ " = "+matriz[x][y]);
+			//System.out.println("["+y+", "+x+"]"+ " = "+matriz[x][y]);
 			visitados.add(ponto);
 
 			if(matriz[x][y] == 1){
